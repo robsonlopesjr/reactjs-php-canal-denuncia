@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 
-import { Container, Paragrafo, ButtonContainer, Button } from './styles';
+import { Container, Paragrafo, ButtonContainer, ButtonMenu } from './styles';
 
 const Dashboard: React.FC = () => {
   return (
@@ -15,8 +15,8 @@ const Dashboard: React.FC = () => {
         <Paragrafo>Ao utilizar este Canal de Denúncia, você poderá fazer relatos de qualquer natureza, referentes a fatos que não estejam de acordo com nossos valores, com nossa Política de Compliance, Antissuborno e Anticorrupção.</Paragrafo>
 
         <ButtonContainer>
-          <Link to="/report"><Button type="button">Fazer relato</Button></Link>
-          <Button type="button">Acompanhe seu relato</Button>
+          <Link to="/report"><ButtonMenu type="button">Fazer relato</ButtonMenu></Link>
+          <ButtonMenu type="button">Acompanhe seu relato</ButtonMenu>
         </ButtonContainer>
       </Container>
     </>

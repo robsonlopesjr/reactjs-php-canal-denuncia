@@ -28,48 +28,13 @@ margin-bottom: 10px;
 `;
 
 export const Content = styled.div`
+  form {
+    width: 100%;
+    text-align: center;
 
-`;
-
-export const InputGroup = styled.form`
-  display: flex;
-  gap: 0.25rem;
-  align-items: center;
-  flex-direction: column;
-
-  background: #fff;
-  font-size: 16px;
-`;
-
-export const TextArea = styled.textarea`
-margin-top: 10px;
-  width: 100%;
-  height: 200px;
-  resize:none;
-  font-size: 1.5rem;
-  padding: 5px;
-`;
-
-export const ButtonForm = styled.button`
-  margin-top: 10px;
-  font-weight: 600;
-  border-radius: 8px;
-  border: 0;
-  background: #3FAD27;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  padding: 14px;
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: brightness(0.95);
-  }
-
-  > svg {
-    margin-right: 10px;
+    button {
+      display: flex;
+      align-items: center;
+    }
   }
 `;
-

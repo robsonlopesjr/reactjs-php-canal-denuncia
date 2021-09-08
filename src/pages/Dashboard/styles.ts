@@ -18,7 +18,7 @@ export const ButtonContainer = styled.div`
   justify-content: space-around;
 `
 
-export const Button = styled.button`
+export const ButtonMenu = styled.button`
   background: #273FAD;
   font-weight: 600;
   border-radius: 10px;
