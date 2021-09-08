@@ -68,10 +68,12 @@ const Follow: React.FC = () => {
 
           formRef.current?.setErrors(errors);
 
+          console.log(errors)
+
           addToast({
             type: 'error',
             title: 'Erro ao pesquisar o relato',
-            description: errors.message,
+            description: errors.tracking,
           });
 
           return;

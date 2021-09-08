@@ -12,18 +12,18 @@ $dados = json_decode($response_json, true);
 
 if ($dados) {
 
-	$query_produto = "INSERT INTO report (hash, message, created_at) VALUES (:hash, :message, :created)";
-	$cad_produto = $conn->prepare($query_produto);
+	$query_report = "INSERT INTO report (hash, message, created_at) VALUES (:hash, :message, :created)";
+	$cad_report = $conn->prepare($query_report);
 
 	$date =  date('Y-m-d H:i:s');
 
-	$cad_produto->bindParam(':hash', $dados['hash'], PDO::PARAM_STR);
-	$cad_produto->bindParam(':message', $dados['message'], PDO::PARAM_STR);
-	$cad_produto->bindParam(':created', $date);
+	$cad_report->bindParam(':hash', $dados['hash'], PDO::PARAM_STR);
+	$cad_report->bindParam(':message', $dados['message'], PDO::PARAM_STR);
+	$cad_report->bindParam(':created', $date);
 
-	$cad_produto->execute();
+	$cad_report->execute();
 
-	if ($cad_produto->rowCount()) {
+	if ($cad_report->rowCount()) {
 		$response = [
 			"erro" => false,
 			"mensagem" => "Relato cadastrado com sucesso!",
