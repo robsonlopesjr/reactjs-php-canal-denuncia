@@ -10,7 +10,7 @@ export const Content = styled.div`
   margin: 0 auto;
   color: #FFF;
 
-  padding: 1rem 1rem 4rem;
+  padding: 1rem 1rem 2rem;
 
   display: flex;
   align-items: center;
