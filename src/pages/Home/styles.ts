@@ -8,7 +8,7 @@ export const Container = styled.div`
 `;
 
 export const Paragrafo = styled.p`
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   font-size: 1.2rem;
 `;
 

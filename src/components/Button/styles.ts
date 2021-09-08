@@ -6,7 +6,7 @@ export const Container = styled.button`
   justify-content: center;
   align-items: center;
 
-  background: #3FAD27;
+  background: #273FAD;
   height: 56px;
   border-radius: 10px;
   border: 0;
@@ -19,7 +19,7 @@ export const Container = styled.button`
   font-size: 1rem;
 
   &:hover {
-    background: ${shade(0.2, '#3FAD27')};
+    background: ${shade(0.2, '#273FAD')};
   }
 
   > svg {

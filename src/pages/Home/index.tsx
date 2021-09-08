@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 
 import { Container, Paragrafo, ButtonContainer, ButtonMenu } from './styles';
 
-const Dashboard: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <>
       <Header />
@@ -16,11 +16,11 @@ const Dashboard: React.FC = () => {
 
         <ButtonContainer>
           <Link to="/report"><ButtonMenu type="button">Fazer relato</ButtonMenu></Link>
-          <ButtonMenu type="button">Acompanhe seu relato</ButtonMenu>
+          <Link to="/follow"><ButtonMenu type="button">Acompanhe seu relato</ButtonMenu></Link>
         </ButtonContainer>
       </Container>
     </>
   );
 }
 
-export default Dashboard;
+export default Home;
