@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=Typescript"/>
   <img src="https://img.shields.io/static/v1?label=php&message=language&color=blue&style=for-the-badge&logo=PHP"/>
   <img src="https://img.shields.io/static/v1?label=reactjs&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=Contrução&color=red&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=green&style=for-the-badge"/>
 </p>
 
 ---
